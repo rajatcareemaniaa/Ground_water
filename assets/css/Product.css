@@ -1,0 +1,37 @@
+.crd-1{
+    display: flex;
+    gap: 29px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.welcome-hero2 {
+    position: relative;
+    background:url(../images/welcome-hero/world-water-day-realistic-drop-falling-ai-generated-al-illustration-275020114.webp)no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    height: 70vh;
+}
+.welcome-hero2:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(42,45,84,.60);
+}
+.crd-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+@media only screen and  (min-width: 320px)  and (max-width: 480px) {
+    .welcome-hero2 {
+        height: 34vh;
+    }
+}

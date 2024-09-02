@@ -1,0 +1,95 @@
+.mr-1{
+    margin-top: 50px;
+}
+.r-p1{
+    display: none;
+}
+.r-p{
+    display: block;
+}
+.h-r {
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 32px;
+    color: rgb(8, 8, 8);
+    text-align: left;
+}
+.welcome-hero1 {
+    position: relative;
+    background:url(../images/welcome-hero/difference-between-pipe-flow-and-open-channel-flow.jpeg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    height: 70vh;
+}
+.welcome-hero1:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(42,45,84,.60);
+}
+.cm-t{
+    margin-top: 10px;
+}
+.service1 {
+    padding: 81px 0 0px;
+}
+.single-service-item1 {
+    text-align: center;
+    padding: 27px 15px 27px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(218, 223, 233);
+    transition: all 0.3s linear 0s;
+}
+
+@media (max-width: 1024px) {
+    .r-p1{
+        display: block;
+    }
+    .r-p{
+        display: none;
+    }
+
+}
+@media (max-width: 768px) {
+    .r-p1{
+        display: block;
+    }
+    .r-p{
+        display: none;
+    }
+    .h-r {
+        
+        font-size: 24px;
+    }
+
+}
+
+
+/* @media (min-width: 576px) { 
+    .h-r{
+        text-align: center;
+        font-size: 25px;
+    }
+
+} */
+/* @media screen and (min-width: 480px) {
+    .h-r{
+        text-align: center;
+        font-size: 25px;
+    }
+  } */
+
+  @media only screen and  (min-width: 320px)  and (max-width: 480px) {
+
+    .welcome-hero1 {
+       
+        height: 35vh;
+    }
+  }
+
+  
