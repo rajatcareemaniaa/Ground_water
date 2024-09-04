@@ -143,9 +143,31 @@ html,body{height: 100%;}
 /*-------------------------------------
         2. Top-area
 --------------------------------------*/
+/* .nav.navbar{
+    background-color: #490D40;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+} */
+
+
+
 nav.navbar.bootsnav {
-    background-color: #3d7edb;
+    /* height: 80px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    transition: background-color 1s ease 0s; */
+    background-color: #fff;
     border-bottom: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: 5;
+    opacity: 1;
 }
 .wrap-sticky nav.navbar.bootsnav.sticked {
     /* background-color: #000; */
@@ -182,8 +204,8 @@ nav.navbar.bootsnav {
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
-    color: #f5f7fa;
-    font-size: 16px;
+    color: #000000;
+    font-size: 18px;
     font-weight: 500;
     text-transform:uppercase;
     -webkit-transition: 0.3s linear; 
